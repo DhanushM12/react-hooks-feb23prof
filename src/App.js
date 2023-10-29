@@ -5,6 +5,7 @@ import UseEffect from './hooks/UseEffect';
 import UseRef from './hooks/UseRef';
 import UseMemo from './hooks/UseMemo';
 import UseCallback from './hooks/UseCallback';
+import UseContext from './hooks/UseContext';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <UseRef />
       <UseMemo />
       <UseCallback />
+      <UseContext />
     </div>
   )
 }
